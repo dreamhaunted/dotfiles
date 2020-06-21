@@ -1,0 +1,10 @@
+#!/bin/sh
+
+mpd &			# music player daemon-you might prefer it as a service though
+xrdb ~/.Xdefaults &	# default colormap
+# xwallpaper --zoom ~/wallpapers/art/robots_iron_dark.jpg &
+setbg ~/wallpapers/art/lake_night_stary_sky.jpg & # set wallpaper
+# wal -i ~/wallpapers/art/cat_art_window.jpg & # set wallpaper
+xcompmgr &		# Xcompmgr for transparency
+xset r rate 300 50 &	# Speed xrate up
+unclutter &		# Remove mouse when idle
